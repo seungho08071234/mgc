@@ -1,0 +1,8 @@
+{
+  "name": "Remix 메가MGC커피 (Mega Coffee)",
+  "description": "메가MGC커피 공식 브랜드 쇼케이스 및 스마트 오더 웹 애플리케이션",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

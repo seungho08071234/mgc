@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <!-- Background shadow filter -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Yellow Brand Emblem Badge -->
+  <g transform="translate(6, 6)" filter="url(#shadow)">
+    <!-- Rounded Outer Badge -->
+    <rect x="0" y="0" width="68" height="68" rx="18" fill="#FFC800" stroke="#1C1917" stroke-width="2.5"/>
+    
+    <!-- Inner Accent Arc / Coffee Cup Silhouette -->
+    <path d="M 18 20 L 50 20 L 46 47 C 46 51 41 54 34 54 C 27 54 22 51 22 47 Z" fill="#1C1917"/>
+    <!-- Cup handle -->
+    <path d="M 48 26 C 53 26 56 29 56 34 C 56 39 52 41 47 41" fill="none" stroke="#1C1917" stroke-width="3" stroke-linecap="round"/>
+    <!-- Steam / Warmth Curves -->
+    <path d="M 28 12 Q 30 8 28 4" fill="none" stroke="#1C1917" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 34 14 Q 36 9 34 5" fill="none" stroke="#1C1917" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 40 12 Q 42 8 40 4" fill="none" stroke="#1C1917" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- MGC Letters inside the badge -->
+    <text x="34" y="42" font-family="'Pretendard', 'Inter', -apple-system, sans-serif" font-size="13" font-weight="900" fill="#FFC800" text-anchor="middle" letter-spacing="1">MGC</text>
+  </g>
+
+  <!-- Main Logotype: MEGA MGC COFFEE -->
+  <g transform="translate(86, 12)">
+    <!-- Top Row: MEGA (Extra Heavy Black) -->
+    <text x="0" y="32" font-family="'Pretendard', 'Inter', 'Arial Black', sans-serif" font-size="32" font-weight="900" fill="#1C1917" letter-spacing="-0.5">MEGA</text>
+    <rect x="108" y="11" width="58" height="23" rx="6" fill="#FFC800" stroke="#1C1917" stroke-width="1.5"/>
+    <text x="137" y="27" font-family="'Pretendard', 'Inter', sans-serif" font-size="14" font-weight="900" fill="#1C1917" text-anchor="middle" letter-spacing="1">MGC</text>
+    
+    <!-- Bottom Row: COFFEE & Slogan -->
+    <text x="1" y="52" font-family="'Pretendard', 'Inter', sans-serif" font-size="15" font-weight="900" fill="#3E2723" letter-spacing="4">COFFEE</text>
+    <circle cx="94" cy="48" r="2.5" fill="#FFC800"/>
+    <text x="104" y="51" font-family="'Pretendard', 'Inter', sans-serif" font-size="10" font-weight="700" fill="#78716C" letter-spacing="0.5">BIG SIZE 2 SHOT</text>
+  </g>
+</svg>
